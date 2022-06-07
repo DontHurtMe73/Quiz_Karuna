@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quiz</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./style/normal.css">
+   <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+   <div class="card" data-card="1" data-validate="novalidate">
+      <div class="container">
+         <div class="wrapper__content">
+            <img class="content__img" src="./images/start.jpg" alt="computer">
+            <div class="content">
+               <span class="subtitle">USEFUL INFO</span>
+               <h1 class="content__title">It’s tricky, and it’s all about trading</h1>
+               <span class="content__text">Pass this test to define your basic financial knowledge.</span>
+               <p class="content__text">
+                  Knowledge is like a muscle: the more you learn, the easier it goes. It’s also a pleasure to know how
+                  far you’ve got from the beginning. This test is dedicated to defining the volume of trading knowledge.
+                  Do you want to learn your level?
+               </p>
+               <span class="content__text"> Let’s go!</span>
+            </div>
+         </div>
+         <button class="button">Let’s go!</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-01 -->
+
+   <div class="card hidden" data-card="2">
+      <div class="container">
+         <div class="question__wrapper tree">
+            <span class="page-number">1/8</span>
+            <h1 class="question__title" data-question>What is the <mark>recommended amount of one trade</mark>, according to the basic rule of money management?</h1>
+            <div class="answers__wrapper">
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer ">3%</div>
+               </label>
+               <label class="answer__block right__label" data-right="true">
+                  <input class="answer-block__checkbox right" type="radio" name="radio-group">
+                  <div class="answer">5%</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">10%</div>
+               </label>
+            </div>
+         </div>
+         <button class="button disabled" disabled>Next</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-02 -->
+
+   <div class="card hidden" data-card="3">
+      <div class="container">
+         <div class="question__wrapper flake">
+            <span class="page-number">2/8</span>
+            <h1 class="question__title" data-question>What is the <mark>recommended amount of trades</mark>, according to the money management rule?</h1>
+            <div class="answers__wrapper">
+               <label class="answer__block right__label" data-right="true">
+                  <input class="answer-block__checkbox right" type="radio" name="radio-group">
+                  <div class="answer">3% of the deposit   </div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">5% of the deposit</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">10% of the deposit</div>
+               </label>
+            </div>
+         </div>
+         <button class="button disabled" disabled>Next</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-03 -->
+
+   <div class="card hidden" data-card="4">
+      <div class="container">
+         <div class="question__wrapper ball">
+            <span class="page-number">3/8</span>
+            <h1 class="question__title" data-question>What is <mark>asset profitability?</mark></h1>
+            <div class="answers__wrapper">
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">The spread of its highest and lowest prices during a specific period.</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">The spread of its open and close prices during a specific period.</div>
+               </label>
+               <label class="answer__block right__label" data-right="true">
+                  <input class="answer-block__checkbox right" type="radio" name="radio-group">
+                  <div class="answer">The share of a trade amount you receive additionally in the case of the correct forecast.</div>
+               </label>
+            </div>
+         </div>
+         <button class="button disabled" disabled>Next</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-04 -->
+
+   <div class="card hidden" data-card="5">
+      <div class="container">
+         <div class="question__wrapper sock">
+            <span class="page-number">4/8</span>
+            <h1 class="question__title" data-question>You’ve concluded a $100 trade. The asset profitability is 80%. <mark>How many funds</mark> will you receive in the case of the <mark>correct price forecast</mark>?</h1>
+            <div class="answers__wrapper">
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">$80</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">$180</div>
+               </label>
+               <label class="answer__block right__label" data-right="true">
+                  <input class="answer-block__checkbox right" type="radio" name="radio-group">
+                  <div class="answer">$200</div>
+               </label>
+            </div>
+         </div>
+         <button class="button disabled" disabled>Next</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-05 -->
+
+   <div class="card hidden" data-card="6">
+      <div class="container">
+         <div class="question__wrapper candy">
+            <span class="page-number">5/8</span>
+            <h1 class="question__title" data-question>Your deposit amount is $800. <mark>How many funds</mark> can you safely invest at the same time?</h1>
+            <div class="answers__wrapper">
+               <label class="answer__block right__label" data-right="true">
+                  <input class="answer-block__checkbox right" type="radio" name="radio-group">
+                  <div class="answer">$1000</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">$500</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">$80</div>
+               </label>
+            </div>
+         </div>
+         <button class="button disabled" disabled>Next</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-06 -->
+
+   <div class="card hidden" data-card="7">
+      <div class="container">
+         <div class="question__wrapper star">
+            <span class="page-number">6/8</span>
+            <h1 class="question__title" data-question>What is the difference between the <mark>asset</mark> and the <mark>index?</mark></h1>
+            <div class="answers__wrapper">
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">The asset is more volatile than the index.</div>
+               </label>
+               <label class="answer__block right__label" data-right="true">
+                  <input class="answer-block__checkbox right" type="radio" name="radio-group">
+                  <div class="answer">The index is more liquid than the asset.</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">Index is a type of asset.</div>
+               </label>
+            </div>
+         </div>
+         <button class="button disabled" disabled>Next</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-07 -->
+
+   <div class="card hidden" data-card="8">
+      <div class="container">
+         <div class="question__wrapper gift">
+            <span class="page-number">7/8</span>
+            <h1 class="question__title" data-question>What does the <mark>EUR/USD value</mark> mean?</h1>
+            <div class="answers__wrapper">
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">It shows the euro quotes in terms of US Dollars.</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">It shows the US Dollar quotes in terms of Euros.</div>
+               </label>
+               <label class="answer__block right__label" data-right="true">
+                  <input class="answer-block__checkbox right" type="radio" name="radio-group">
+                  <div class="answer">It means that the euro has higher quotes than the dollar.</div>
+               </label>
+            </div>
+         </div>
+         <button class="button disabled" disabled>Next</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-08 -->
+
+   <div class="card hidden" data-card="9">
+      <div class="container">
+         <div class="question__wrapper mitten">
+            <span class="page-number">8/8</span>
+            <h1 class="question__title" data-question>What does the <mark>index value</mark> tell you?</h1>
+            <div class="answers__wrapper">
+               <label class="answer__block right__label" data-right="true">
+                  <input class="answer-block__checkbox right" type="radio" name="radio-group">
+                  <div class="answer">That the group of assets goes up or down in price.</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">That the specific industry is doing well or not.</div>
+               </label>
+               <label class="answer__block">
+                  <input class="answer-block__checkbox" type="radio" name="radio-group">
+                  <div class="answer">Both variants may be correct.</div>
+               </label>
+            </div>
+         </div>
+         <button class="button disabled" disabled>Next</button>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-09 -->
+
+   <div class="card hidden" data-card="10">
+      <div class="container">
+         <div class="wrapper__content">
+            <img class="content__img result__img" src="./images/result/excellent.jpg" alt="gift boxes">
+            <div class="content">
+               <h1 class="result__title">8/8 Excellent</h1>
+               <p class="result__text">
+                  When calculating, you feel at home. Transform your knowledge into income!
+                  We wish you productive trading!
+               </p>
+            </div>
+         </div>
+         <div class="like__groupe">
+            <label class="checkbox">
+               <input class="checkbox__real" type="checkbox" name="value-01">
+               <div class="heart__btn">
+                  <svg class="heart" width="28" height="26" viewBox="0 0 28 26" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14 3.55339C15.4533 1.84672 17.68 0.766724 20 0.766724C24.1066 0.766724 27.3333 3.99339 27.3333 8.10006C27.3333 13.1359 22.8074 17.24 15.9502 23.4581L15.9333 23.4734L14 25.2334L12.0666 23.4867L12.014 23.4389C5.1768 17.2257 0.666626 13.1272 0.666626 8.10006C0.666626 3.99339 3.89329 0.766724 7.99996 0.766724C10.32 0.766724 12.5466 1.84672 14 3.55339ZM14 21.6334L14.1333 21.5001C20.48 15.7534 24.6666 11.9534 24.6666 8.10006C24.6666 5.43339 22.6666 3.43339 20 3.43339C17.9466 3.43339 15.9466 4.75339 15.2533 6.58006H12.76C12.0533 4.75339 10.0533 3.43339 7.99996 3.43339C5.33329 3.43339 3.33329 5.43339 3.33329 8.10006C3.33329 11.9534 7.51996 15.7534 13.8666 21.5001L14 21.6334Z"
+                        fill="#FE6767" />
+                     <path class="heart__fill"
+                        d="M20 0.766724C17.68 0.766724 15.4533 1.84672 14 3.55339C12.5466 1.84672 10.32 0.766724 7.99996 0.766724C3.89329 0.766724 0.666626 3.99339 0.666626 8.10006C0.666626 13.1401 5.19996 17.2467 12.0666 23.4867L14 25.2334L15.9333 23.4734C22.8 17.2467 27.3333 13.1401 27.3333 8.10006C27.3333 3.99339 24.1066 0.766724 20 0.766724Z"
+                        fill="none" />
+                  </svg>
+                  <span class="heart__text">Like</span>
+               </div>
+            </label>
+         </div>
+      </div>
+   </div>
+   <!-- /.card-10 -->
+
+   <script src="./script/script.js"></script>
+</body>
+
+</html>
